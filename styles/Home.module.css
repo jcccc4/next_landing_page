@@ -20,7 +20,10 @@
   text-underline-offset: 7px;
   color: white;
 }
-
+.tailored {
+  text-decoration: underline #44ffa1 0.2rem;
+  text-underline-offset: 7px;
+}
 .section {
   padding: 54px 0px;
   color: white;
@@ -45,15 +48,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+  width: 320px;
+  height: 184px;
 }
 
-.characteristics{
+.characteristics {
   text-align: center;
   padding: 60px 16px 0px;
-  
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
 }
-.description{
+.description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,28 +67,31 @@
   display: flex;
   gap: 30px;
 }
-.number{
+.number {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 48px;
   height: 46px;
   border-radius: 50%;
-  border: solid #584D62 1px;
+  border: solid #584d62 1px;
   font-family: "Fraunces 144pt";
+  font-size: 20px;
 }
 
-.description_item{
+.description_item {
   font-family: "Fraunces 144pt";
-  font-size: 36px;
-}
-
-.description_paragraph{
-  font-family: "Manrope Regular";
   font-size: 28px;
-  
 }
 
+.description_paragraph {
+  font-family: "Manrope Regular";
+  font-size: 16px;
+}
+.logo {
+  height: 24.61px;
+  width: 95.76px;
+}
 @media only screen and (min-width: 768px) {
   .header {
     padding: 32px 39px 0px;
