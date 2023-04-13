@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className={styles.background} />
       <header className={styles.header}>
-        <img
+        <Image
           className={styles.logo}
           src="/static/images/logo-light.svg"
           alt="Logo"
@@ -80,23 +80,23 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.links}>
-        <img
+        <Image
           className={styles.logoDark}
           src="/static/images/logo-dark.svg"
           alt="Logo"
         />
         <div className={styles.socialLinks}>
-          <img
+          <Image
             className={styles.social}
             src="/static/images/icon-facebook.svg"
             alt="Logo"
           />
-          <img
+          <Image
             className={styles.social}
             src="/static/images/icon-twitter.svg"
             alt="Logo"
           />
-          <img
+          <Image
             className={styles.social}
             src="/static/images/icon-instagram.svg"
             alt="Logo"
