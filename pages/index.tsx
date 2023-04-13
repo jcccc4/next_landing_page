@@ -12,6 +12,7 @@ export default function Home() {
           alt="Logo"
           width={95.76}
           height={24.61}
+          priority
         />
         <div className={styles.header_text}>Apply for access</div>
       </header>
@@ -30,6 +31,7 @@ export default function Home() {
         height={184}
         width={320}
         alt="phone"
+        priority
       />
       <section className={styles.characteristics}>
         <div className={styles.description}>
@@ -67,6 +69,7 @@ export default function Home() {
             height={281}
             width={281}
             alt="phone"
+            priority
           />
         </div>
 
@@ -88,6 +91,7 @@ export default function Home() {
           alt="Logo"
           width={95.76}
           height={24.61}
+          priority
         />
         <div className={styles.socialLinks}>
           <Image
@@ -96,6 +100,7 @@ export default function Home() {
             alt="Logo"
             width={20}
             height={20}
+            priority
           />
           <Image
             className={styles.social}
@@ -103,6 +108,7 @@ export default function Home() {
             alt="Logo"
             width={20}
             height={20}
+            priority
           />
           <Image
             className={styles.social}
@@ -110,6 +116,7 @@ export default function Home() {
             alt="Logo"
             width={20}
             height={20}
+            priority
           />
         </div>
       </div>
