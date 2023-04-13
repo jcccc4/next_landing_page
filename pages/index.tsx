@@ -10,6 +10,8 @@ export default function Home() {
           className={styles.logo}
           src="/static/images/logo-light.svg"
           alt="Logo"
+          width={95.76}
+          height={24.61}
         />
         <div className={styles.header_text}>Apply for access</div>
       </header>
@@ -71,10 +73,10 @@ export default function Home() {
         <div className={styles.profileContainer}>
           <div className={styles.profileTitle}>Be the first to test</div>
           <div className={styles.profileDescription}>
-            Hi, I'm Louis Graham, the founder of the company. Book a demo call
+            `Hi, I'm Louis Graham, the founder of the company. Book a demo call
             with me to become a beta tester for our app and kickstart your
-            company. Apply for access below and I’ll be in touch to schedule a
-            call.
+            company. Apply for access below and I&apos;ll be in touch to
+            schedule a call.`
           </div>
           <button>Apply for access</button>
         </div>
@@ -84,22 +86,30 @@ export default function Home() {
           className={styles.logoDark}
           src="/static/images/logo-dark.svg"
           alt="Logo"
+          width={95.76}
+          height={24.61}
         />
         <div className={styles.socialLinks}>
           <Image
             className={styles.social}
             src="/static/images/icon-facebook.svg"
             alt="Logo"
+            width={20}
+            height={20}
           />
           <Image
             className={styles.social}
             src="/static/images/icon-twitter.svg"
             alt="Logo"
+            width={20}
+            height={20}
           />
           <Image
             className={styles.social}
             src="/static/images/icon-instagram.svg"
             alt="Logo"
+            width={20}
+            height={20}
           />
         </div>
       </div>
