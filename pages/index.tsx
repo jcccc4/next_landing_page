@@ -9,7 +9,6 @@ export default function Home() {
         <img
           className={styles.logo}
           src="/static/images/logo-light.svg"
-          
           alt="Logo"
         />
         <div className={styles.header_text}>Apply for access</div>
@@ -43,7 +42,7 @@ export default function Home() {
           <div className={styles.number}>2</div>
           <div className={styles.description_item}>Data-driven decisions</div>
           <div className={styles.description_paragraph}>
-            Make data-driven decisions with our product data analytics. Out
+            Make data-driven decisions with our product data analytics. Our
             AI-genereted reports help you unlock insights hidden in your product
             data.
           </div>
@@ -58,6 +57,52 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className={styles.portfolio}>
+        <div className={styles.profile}>
+          <Image
+            className={styles.profilePic}
+            src="/static/images/image-founder.webp"
+            height={281}
+            width={281}
+            alt="phone"
+          />
+        </div>
+
+        <div className={styles.profileContainer}>
+          <div className={styles.profileTitle}>Be the first to test</div>
+          <div className={styles.profileDescription}>
+            Hi, I'm Louis Graham, the founder of the company. Book a demo call
+            with me to become a beta tester for our app and kickstart your
+            company. Apply for access below and I’ll be in touch to schedule a
+            call.
+          </div>
+          <button>Apply for access</button>
+        </div>
+      </div>
+      <div className={styles.links}>
+        <img
+          className={styles.logoDark}
+          src="/static/images/logo-dark.svg"
+          alt="Logo"
+        />
+        <div className={styles.socialLinks}>
+          <img
+            className={styles.social}
+            src="/static/images/icon-facebook.svg"
+            alt="Logo"
+          />
+          <img
+            className={styles.social}
+            src="/static/images/icon-twitter.svg"
+            alt="Logo"
+          />
+          <img
+            className={styles.social}
+            src="/static/images/icon-instagram.svg"
+            alt="Logo"
+          />
+        </div>
+      </div>
     </>
   );
 }
