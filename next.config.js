@@ -4,11 +4,14 @@ const nextConfig = {
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
-      use: ["@svgr/webpack"]
+      use: ["@svgr/webpack"],
     });
 
     return config;
-  }
-}
+  },
+  Images: {
+    formats: ['image/webp'],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
