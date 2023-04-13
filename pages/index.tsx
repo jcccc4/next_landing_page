@@ -8,7 +8,7 @@ export default function Home() {
       <header className={styles.header}>
         <Image
           className={styles.logo}
-          src="/static/images/logo-light.svg"
+          src="/next_landing_page/static/images/logo-light.svg"
           alt="Logo"
           width={95.76}
           height={24.61}
@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <Image
         className={styles.hero}
-        src="/static/images/image-hero.webp"
+        src="/next_landing_page/static/images/image-hero.webp"
         height={184}
         width={320}
         alt="phone"
@@ -65,7 +65,7 @@ export default function Home() {
         <div className={styles.profile}>
           <Image
             className={styles.profilePic}
-            src="/static/images/image-founder.webp"
+            src="/next_landing_page/static/images/image-founder.webp"
             height={281}
             width={281}
             alt="phone"
@@ -87,7 +87,7 @@ export default function Home() {
       <div className={styles.links}>
         <Image
           className={styles.logoDark}
-          src="/static/images/logo-dark.svg"
+          src="/next_landing_page/static/images/logo-dark.svg"
           alt="Logo"
           width={95.76}
           height={24.61}
@@ -96,7 +96,7 @@ export default function Home() {
         <div className={styles.socialLinks}>
           <Image
             className={styles.social}
-            src="/static/images/icon-facebook.svg"
+            src="/next_landing_page/static/images/icon-facebook.svg"
             alt="Logo"
             width={20}
             height={20}
@@ -104,7 +104,7 @@ export default function Home() {
           />
           <Image
             className={styles.social}
-            src="/static/images/icon-twitter.svg"
+            src="/next_landing_page/static/images/icon-twitter.svg"
             alt="Logo"
             width={20}
             height={20}
@@ -112,7 +112,7 @@ export default function Home() {
           />
           <Image
             className={styles.social}
-            src="/static/images/icon-instagram.svg"
+            src="/next_landing_page/static/images/icon-instagram.svg"
             alt="Logo"
             width={20}
             height={20}
