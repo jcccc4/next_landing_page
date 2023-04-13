@@ -4,7 +4,7 @@
   height: 500px;
   left: 0px;
   top: 0px;
-  background:url("/static/images/Rectangle.svg");
+  background:url("/next_landing_page/static/images/Rectangle.svg");
   background-size:cover;
   background-repeat: no-repeat;
   z-index: -999;
@@ -181,7 +181,7 @@
     padding-right: 55px;
   }
   .background {
-    background:url("/static/images/Rectangle-Desktop.svg");
+    background:url("/next_landing_page/static/images/Rectangle-Desktop.svg");
     background-size:cover;
     background-repeat: no-repeat;
     margin-top: -200px;
@@ -214,7 +214,7 @@
   }
   
   .background {
-    background:url("/static/images/Rectangle-Desktop.svg");
+    background:url("/next_landing_page/static/images/Rectangle-Desktop.svg");
     background-size:cover;
     background-repeat: no-repeat;
     margin-top: -200px;
